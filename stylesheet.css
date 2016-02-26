@@ -1,0 +1,202 @@
+html, body {
+  margin:0px;
+  padding:0px;                  
+  background:url("background-image.jpg") no-repeat;
+  background-size:cover;
+  border: solid yellow; 
+}
+
+#inputSet2 {
+  
+}
+
+#mainForm {
+  position:relative;
+  border:solid black;
+  margin:auto;
+  height:40em;
+  width:auto;
+}
+
+.divClass {
+  display:inline-block;
+}
+
+#inputSet {
+  position:absolute;
+  top:5em;
+  width:98%;
+  max-width:auto;
+  margin:0 auto;
+  border:solid white;
+ 
+}
+
+#inputSetToggle {
+  position:absolute;
+  top:5em;
+  width:60%;
+  max-width:auto;
+  margin:0 auto;
+  border:solid white;
+  
+}
+
+#inputSet2 {
+  position:absolute;
+  top:5em;
+  width:98%;
+  max-width:auto;
+  margin:0 auto;
+  border:solid white;
+  display:none;
+}
+
+
+
+#leftForm {
+  overflow:hidden;
+  position:relative;
+  border:solid purple;
+  height:90%;
+  width:2%;
+  background-color:#f4f4f4;
+}
+
+
+.divClass {
+  display:inline-block;
+}
+
+#leftFormToggle {
+  border:solid purple;
+  position:absolute;
+  top:5px;
+  height:40em;
+  width:50%;
+  
+}
+
+
+
+#group1 {
+  margin:auto;
+  position:relative;
+  border:solid orange;
+  
+}
+
+#group1:hover {
+  border:solid white;
+  transition:scale(5);
+}
+
+.inputFieldset {
+  position:relative;
+  margin:auto;
+  padding:0;
+  border:solid red;
+  
+}
+
+.inputFieldsetToggle {
+  padding:0;
+  background-color:white;
+  border:2px solid #73AD21;
+}
+
+#addButton {
+  position:absolute;
+  top:5px;
+  left:105px;
+}
+
+p {
+  position:absolute;
+}
+
+.checkBox {
+  transform:scale(1.3); 
+  top:.8em;
+  position:absolute;
+  margin:auto;
+  left:5em;
+}
+
+.input {
+  position:relative;
+  /*border-radius: 5px;*/
+  border:hidden;
+  border: 2px solid #73AD21;
+  height:1.7em;
+  margin:0.3em;
+  text-indent:2em;
+}
+
+.inputToggle {
+  position:relative;
+  /*border-radius: 5px;*/
+  border:hidden;
+  height:1.7em;
+  margin:0.3em;
+  text-indent:2em;
+}
+
+.input:focus {
+  outline:none;
+}
+
+.inputToggle:focus {
+  outline:none;
+}
+
+.checkBox:hover {
+  cursor:pointer;
+  
+}
+
+#testButton {
+  position:static;
+  top:1em;
+  
+  
+  
+}
+
+.dropDownDiv {
+  height:100px;
+  background-color:white;
+  display:none;
+}
+
+.reoccurDiv {
+  display:none
+}
+
+.occurDiv {
+  display:block;
+}
+
+input[type="text"]{
+  width:90%;
+  left:4em;
+}
+
+.doneAnimation {
+  animation-name: done;
+  animation-duration: .5s;
+  background-color:rgba(255,255,255,1);
+  border-radius: 5px;
+  border: 2px solid #73AD21;
+  height:1.5em;
+  margin:.3em;
+  text-indent:2em;
+}
+
+.listButtons {
+  position:relative;
+  width:100%;
+  height:2em;
+  top:2em;
+}
+

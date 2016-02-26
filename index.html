@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>VanillaJS • TodoMVC</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="jquery-1.11.3.js"></script>
+  <script src="javascriptfile.js" type="text/javascript"></script>
+</head>
+<body>
+    <form id="mainForm" >
+      
+      <div id="leftForm" class="divClass">
+        <button type="button" id="testButton">T</button>
+        <button type="button" id="list1" class="listButtons">List1</button>
+        <button type="button" id="list2" class="listButtons">List2</button>
+      </div> 
+      
+      <div id="inputSet" class="divClass">
+        <div id="group1">
+          <fieldset class="inputFieldset">
+            <input type="text" id="input1" class="input" >
+            <input type="checkbox" id="check1" class="checkBox">
+            <div class="dropDownDiv" id="dropDownDiv1">
+              <label for="dropCheck1">Reocurring</label>
+              <input type="checkbox" id="dropCheck1" class="reoccurCheckBox">
+              <div class="reoccurDiv" id=reoccurDiv1>
+                <label for="reoccurDate1">Date</label>
+                <input type="date" id="reoccurDate1" class="reoccurDate">
+                <label for="reoccurTime1">Time</label>
+                <input type="time" id="reoccurTime1" class="reoccurTime">
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        
+        <div id="group2">
+          <fieldset class="inputFieldset">
+            <input type="text"  id="input2" class="input">
+            <input type="checkbox" id="check2" class="checkBox">
+            <div class="dropDownDiv" id="dropDownDiv2">
+              <input type="checkbox" id="dropCheck2" class="dropCheckBox">
+              <input type="date" id="dropDate2" class="dropDate">
+            </div>
+          </fieldset>
+        </div>
+      </div>
+      
+      <div id="inputSet2" class="divClass">
+        <div id="group1">
+          <fieldset class="inputFieldset">
+            <input type="text" id="input1" class="input" >
+            <input type="checkbox" id="check1" class="checkBox">
+            <div class="dropDownDiv" id="dropDownDiv1">
+              <label for="dropCheck1">Reocurring</label>
+              <input type="checkbox" id="dropCheck1" class="reoccurCheckBox">
+              <div class="reoccurDiv" id=reoccurDiv1>
+                <label for="reoccurDate1">Date</label>
+                <input type="date" id="reoccurDate1" class="reoccurDate">
+                <label for="reoccurTime1">Time</label>
+                <input type="time" id="reoccurTime1" class="reoccurTime">
+              </div>
+            </div>
+          </fieldset>
+        </div>
+        
+        <div id="group2">
+          <fieldset class="inputFieldset">
+            <input type="text"  id="input2" class="input">
+            <input type="checkbox" id="check2" class="checkBox">
+            <div class="dropDownDiv" id="dropDownDiv2">
+              <input type="checkbox" id="dropCheck2" class="dropCheckBox">
+              <input type="date" id="dropDate2" class="dropDate">
+            </div>
+          </fieldset>
+        </div>
+      </div>
+      
+      <button type="button" onclick="addFunction()" id="addButton">Add Item</button>
+      
+     
+    </form>
+   
+    
+    
+    <p id = "two">What</p>
+  
+  </body>
+</html>
