@@ -200,3 +200,12 @@ input[type="text"]{
   top:2em;
 }
 
+#two {
+  position:relative;
+}
+  
+#value-Out {
+  position:relative;  
+}
+
+
